@@ -10,7 +10,7 @@ export function NewsPage() {
     <div className="max-w-4xl mx-auto">
       <div className="text-center mb-12">
         <h1 className="text-4xl font-bold text-[#c22e13] mb-4">News</h1>
-        <p className="text-xl text-gray-700">
+        <p className="text-xl">
           最新のニュースをお届けします
         </p>
       </div>
