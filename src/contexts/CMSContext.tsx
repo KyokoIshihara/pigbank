@@ -109,7 +109,7 @@ const defaultLiveEvents: LiveEvent[] = [
     location: '韓国 ソウル',
     description: '待望の韓国初ライブ！詳細は後日発表予定です。',
     ticketUrl: '#',
-    flyerUrl: 'https://www.instagram.com/kuchucamp_/',
+    flyerUrl: 'https://images.pexels.com/photos/6045043/pexels-photo-6045043.jpeg?auto=compress&cs=tinysrgb&w=400',
     isActive: true,
   },
 ];
