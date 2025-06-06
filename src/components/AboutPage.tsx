@@ -37,7 +37,7 @@ export function AboutPage() {
             <Target className="h-8 w-8 text-blue-600" />
           </div>
           <h3 className="text-xl font-bold text-gray-900 mb-3">使命</h3>
-          <p className="text-gray-600">
+          <p className="">
             お客様のビジネス目標達成をサポートし、持続可能な成長を実現します。
           </p>
         </div>
