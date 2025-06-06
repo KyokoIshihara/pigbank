@@ -12,7 +12,7 @@ export function LivePage() {
     <div className="max-w-6xl mx-auto">
       <div className="text-center mb-12">
         <h1 className="text-4xl font-bold text-[#c22e13] mb-4">Live / Event</h1>
-        <p className="text-xl text-gray-700">
+        <p className="text-xl">
           ライブ・イベント情報
         </p>
       </div>
