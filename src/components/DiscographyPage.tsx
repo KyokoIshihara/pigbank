@@ -10,7 +10,7 @@ export function DiscographyPage() {
     <div className="max-w-6xl mx-auto">
       <div className="text-center mb-12">
         <h1 className="text-4xl font-bold text-[#c22e13] mb-4">Discography</h1>
-        <p className="text-xl text-gray-700">
+        <p className="text-xl">
           Pig Bankの音源をお楽しみください
         </p>
       </div>
