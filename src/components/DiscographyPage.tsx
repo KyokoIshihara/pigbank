@@ -34,11 +34,11 @@ export function DiscographyPage() {
                 {item.title}
               </h3>
               
-              <p className="text-gray-700 mb-4">
+              <p className="mb-4">
                 {item.description}
               </p>
               
-              <p className="text-sm text-gray-500 mb-4">
+              <p className="text-sm mb-4">
                 Release: {new Date(item.releaseDate).toLocaleDateString('ja-JP')}
               </p>
               
