@@ -62,7 +62,7 @@ export function LivePage() {
                       </div>
                     </div>
                     
-                    <p className="text-gray-700 mb-6">
+                    <p className="mb-6">
                       {event.description}
                     </p>
                     
