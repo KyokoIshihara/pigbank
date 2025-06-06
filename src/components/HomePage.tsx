@@ -14,7 +14,7 @@ export function HomePage() {
           <img 
             src="/ChatGPT Image 2025年6月4日 12_38_06.png" 
             alt="Pig Bank" 
-            className="lg:w-6/12 w-full h-64 md:h-96 object-cover mx-auto"
+            className="md:w-6/12 w-full h-64 md:h-96 object-cover mx-auto"
           />
         </div>
         <h1 className="text-4xl md:text-6xl font-bold text-[#c22e13] mb-6">
