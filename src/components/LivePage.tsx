@@ -97,10 +97,10 @@ export function LivePage() {
                   className="w-full h-48 object-cover"
                 />
                 <div className="p-6">
-                  <h3 className="text-lg font-bold text-gray-700 mb-2">
+                  <h3 className="text-lg font-bold mb-2">
                     {event.title}
                   </h3>
-                  <div className="flex items-center text-gray-500 text-sm">
+                  <div className="flex items-center text-sm">
                     <Calendar className="h-4 w-4 mr-2" />
                     {new Date(event.date).toLocaleDateString('ja-JP')}
                   </div>
