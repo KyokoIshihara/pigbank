@@ -14,7 +14,7 @@ export function AboutPage() {
       {/* Company Story */}
       <div className="bg-white rounded-xl shadow-lg p-8 mb-12">
         <h2 className="text-2xl font-bold text-gray-900 mb-6">私たちのストーリー</h2>
-        <div className="prose prose-lg text-gray-700 max-w-none">
+        <div className="prose prose-lg max-w-none">
           <p className="mb-4">
             私たちは2020年に設立され、お客様のビジネス成功をサポートすることを使命としています。
             革新的なソリューションと卓越したサービスを通じて、多くの企業の成長に貢献してきました。
