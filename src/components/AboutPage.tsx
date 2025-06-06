@@ -6,7 +6,7 @@ export function AboutPage() {
     <div className="max-w-4xl mx-auto">
       <div className="text-center mb-12">
         <h1 className="text-4xl font-bold text-gray-900 mb-4">About Us</h1>
-        <p className="text-xl text-gray-600">
+        <p className="text-xl">
           私たちの使命と価値観について
         </p>
       </div>
