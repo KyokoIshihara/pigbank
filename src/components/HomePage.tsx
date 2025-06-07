@@ -12,7 +12,7 @@ export function HomePage() {
       <div className="text-center mb-16">
         <div className="mb-8">
           <img 
-            src="/ChatGPT Image 2025年6月4日 12_38_06.png" 
+            src="/ChatGPT Image 2025年6月7日 16_30_56.png" 
             alt="Pig Bank" 
             className="md:w-6/12 w-full h-64 md:h-96 object-cover mx-auto"
           />

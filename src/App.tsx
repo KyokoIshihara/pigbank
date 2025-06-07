@@ -78,7 +78,7 @@ function AppContent() {
         <div className="max-w-6xl mx-auto px-4 text-center">
           <div className="flex justify-center items-center space-x-4 mb-4">
             <img 
-              src="/ChatGPT Image 2025年6月4日 12_38_06.png" 
+              src="/ChatGPT Image 2025年6月7日 16_30_56.png" 
               alt="Pig Bank" 
               className="h-8 w-auto"
             />

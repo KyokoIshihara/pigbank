@@ -21,7 +21,7 @@ export function Header({ currentPage, onPageChange, onAdminToggle, isAdminMode }
           {/* Logo */}
           <div className="flex items-center space-x-3">
             <img 
-              src="/ChatGPT Image 2025年6月4日 12_38_06.png" 
+              src="/ChatGPT Image 2025年6月7日 16_30_56.png" 
               alt="Pig Bank" 
               className="h-12 w-auto"
             />
