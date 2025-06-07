@@ -17,7 +17,7 @@ export function HomePage() {
             className="md:w-6/12 w-full h-64 md:h-96 object-cover mx-auto"
           />
         </div>
-        <h1 className="text-4xl md:text-6xl font-bold text-[#c22e13] mb-6">
+        <h1 className="text-xl font-bold text-[#c22e13] mb-6">
           Welcome to Pig Bank
         </h1>
       </div>
