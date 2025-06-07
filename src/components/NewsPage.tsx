@@ -10,7 +10,7 @@ export function NewsPage() {
     <div className="max-w-4xl mx-auto">
       <div className="text-center mb-12">
         <h1 className="text-4xl font-bold text-[#c22e13] mb-4">News</h1>
-        <p className="text-xl">
+        <p className="text-xl text-[#c22e13]">
           最新のニュースをお届けします
         </p>
       </div>
@@ -21,7 +21,7 @@ export function NewsPage() {
             key={news.id}
             className="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow duration-300"
           >
-            <div className="flex items-center text-sm text-gray-500 mb-4">
+            <div className="flex items-center text-sm text-[#c22e13] mb-4">
               <Calendar className="h-4 w-4 mr-2 text-[#c22e13]" />
               <time dateTime={news.date}>
                 {new Date(news.date).toLocaleDateString('ja-JP', {
@@ -36,7 +36,7 @@ export function NewsPage() {
               {news.title}
             </h2>
             
-            <div className="prose prose-lg text-gray-700 max-w-none">
+            <div className="prose prose-lg text-[#c22e13] max-w-none">
               {news.content.split('\n').map((paragraph, index) => (
                 <p key={index} className="mb-4">
                   {paragraph}

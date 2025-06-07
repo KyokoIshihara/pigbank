@@ -12,7 +12,7 @@ export function LivePage() {
     <div className="max-w-6xl mx-auto">
       <div className="text-center mb-12">
         <h1 className="text-4xl font-bold text-[#c22e13] mb-4">Live / Event</h1>
-        <p className="text-xl">
+        <p className="text-xl text-[#c22e13]">
           ライブ・イベント情報
         </p>
       </div>
@@ -41,7 +41,7 @@ export function LivePage() {
                     </h3>
                     
                     <div className="space-y-3 mb-6">
-                      <div className="flex items-center text-gray-700">
+                      <div className="flex items-center text-[#c22e13]">
                         <Calendar className="h-5 w-5 mr-3 text-[#c22e13]" />
                         <span className="text-lg">
                           {new Date(event.date).toLocaleDateString('ja-JP', {
@@ -53,16 +53,16 @@ export function LivePage() {
                         </span>
                       </div>
                       
-                      <div className="flex items-center text-gray-700">
+                      <div className="flex items-center text-[#c22e13]">
                         <MapPin className="h-5 w-5 mr-3 text-[#c22e13]" />
                         <div>
                           <div className="text-lg font-medium">{event.venue}</div>
-                          <div className="text-sm text-gray-500">{event.location}</div>
+                          <div className="text-sm">{event.location}</div>
                         </div>
                       </div>
                     </div>
                     
-                    <p className="mb-6">
+                    <p className="mb-6 text-[#c22e13]">
                       {event.description}
                     </p>
                     
@@ -84,7 +84,7 @@ export function LivePage() {
       {/* Past Events */}
       {pastEvents.length > 0 && (
         <div>
-          <h2 className="text-2xl font-bold mb-8">Past Events</h2>
+          <h2 className="text-2xl font-bold text-[#c22e13] mb-8">Past Events</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {pastEvents.map((event) => (
               <div
@@ -97,10 +97,10 @@ export function LivePage() {
                   className="w-full h-48 object-cover"
                 />
                 <div className="p-6">
-                  <h3 className="text-lg font-bold mb-2">
+                  <h3 className="text-lg font-bold text-[#c22e13] mb-2">
                     {event.title}
                   </h3>
-                  <div className="flex items-center text-sm">
+                  <div className="flex items-center text-sm text-[#c22e13]">
                     <Calendar className="h-4 w-4 mr-2" />
                     {new Date(event.date).toLocaleDateString('ja-JP')}
                   </div>

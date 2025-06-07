@@ -10,7 +10,7 @@ export function GoodsPage() {
     <div className="max-w-6xl mx-auto">
       <div className="text-center mb-12">
         <h1 className="text-4xl font-bold text-[#c22e13] mb-4">Goods</h1>
-        <p className="text-xl">
+        <p className="text-xl text-[#c22e13]">
           Pig Bank オリジナルグッズ
         </p>
       </div>
@@ -34,7 +34,7 @@ export function GoodsPage() {
                 {product.name}
               </h3>
               
-              <p className="text-gray-700 mb-4">
+              <p className="text-[#c22e13] mb-4">
                 {product.description}
               </p>
               

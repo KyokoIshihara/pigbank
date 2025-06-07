@@ -45,7 +45,7 @@ function AppContent() {
                 <h1 className="text-4xl font-bold text-[#c22e13] mb-4">{menuItem.name}</h1>
               </div>
               <div className="bg-white rounded-xl shadow-lg p-8">
-                <div className="prose prose-lg text-gray-700 max-w-none">
+                <div className="prose prose-lg text-[#c22e13] max-w-none">
                   {menuItem.content.split('\n').map((paragraph, index) => (
                     <p key={index} className="mb-4">
                       {paragraph}

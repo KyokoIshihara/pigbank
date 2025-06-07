@@ -64,7 +64,7 @@ export function HomePage() {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         <div className="bg-white rounded-xl shadow-lg p-8 text-center hover:shadow-xl transition-shadow duration-300 border-2 border-transparent hover:border-[#c22e13]">
           <h3 className="text-2xl font-bold text-[#c22e13] mb-4">Latest Music</h3>
-          <p className="mb-6 text-[#c22e13] ">
+          <p className="mb-6 text-[#c22e13]">
             最新の音源をチェック
           </p>
           <button className="inline-flex items-center px-6 py-3 bg-[#c22e13] text-white font-medium rounded-lg hover:bg-red-700 transition-colors duration-200">
@@ -75,7 +75,7 @@ export function HomePage() {
 
         <div className="bg-white rounded-xl shadow-lg p-8 text-center hover:shadow-xl transition-shadow duration-300 border-2 border-transparent hover:border-[#c22e13]">
           <h3 className="text-2xl font-bold text-[#c22e13] mb-4">Live Videos</h3>
-          <p className="mb-6 text-[#c22e13] ">
+          <p className="mb-6 text-[#c22e13]">
             ライブ映像・MV
           </p>
           <button className="inline-flex items-center px-6 py-3 bg-[#c22e13] text-white font-medium rounded-lg hover:bg-red-700 transition-colors duration-200">
@@ -86,7 +86,7 @@ export function HomePage() {
 
         <div className="bg-white rounded-xl shadow-lg p-8 text-center hover:shadow-xl transition-shadow duration-300 border-2 border-transparent hover:border-[#c22e13]">
           <h3 className="text-2xl font-bold text-[#c22e13] mb-4">Official Goods</h3>
-          <p className="mb-6 text-[#c22e13] ">
+          <p className="mb-6 text-[#c22e13]">
             オリジナルグッズ
           </p>
           <button className="inline-flex items-center px-6 py-3 bg-[#c22e13] text-white font-medium rounded-lg hover:bg-red-700 transition-colors duration-200">

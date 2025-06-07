@@ -72,7 +72,7 @@ export function Header({ currentPage, onPageChange, onAdminToggle, isAdminMode }
               className={`p-2 rounded-md transition-colors duration-200 ${
                 isAdminMode
                   ? 'bg-red-100 text-[#c22e13] hover:bg-red-200'
-                  : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                  : 'bg-gray-100 text-[#c22e13] hover:bg-gray-200'
               }`}
               title={isAdminMode ? '管理モードを終了' : '管理モードに入る'}
             >

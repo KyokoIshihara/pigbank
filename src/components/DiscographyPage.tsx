@@ -10,7 +10,7 @@ export function DiscographyPage() {
     <div className="max-w-6xl mx-auto">
       <div className="text-center mb-12">
         <h1 className="text-4xl font-bold text-[#c22e13] mb-4">Discography</h1>
-        <p className="text-xl">
+        <p className="text-xl text-[#c22e13]">
           Pig Bankの音源をお楽しみください
         </p>
       </div>
@@ -34,11 +34,11 @@ export function DiscographyPage() {
                 {item.title}
               </h3>
               
-              <p className="mb-4">
+              <p className="mb-4 text-[#c22e13]">
                 {item.description}
               </p>
               
-              <p className="text-sm mb-4">
+              <p className="text-sm mb-4 text-[#c22e13]">
                 Release: {new Date(item.releaseDate).toLocaleDateString('ja-JP')}
               </p>
               

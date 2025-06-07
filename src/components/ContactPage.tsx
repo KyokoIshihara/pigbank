@@ -26,7 +26,7 @@ export function ContactPage() {
     <div className="max-w-4xl mx-auto">
       <div className="text-center mb-12">
         <h1 className="text-4xl font-bold text-[#c22e13] mb-4">Contact</h1>
-        <p className="text-xl">
+        <p className="text-xl text-[#c22e13]">
           お気軽にお問い合わせください
         </p>
       </div>
@@ -51,7 +51,7 @@ export function ContactPage() {
                 required
                 value={formData.name}
                 onChange={handleChange}
-                className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:ring-2 focus:ring-[#c22e13] focus:border-[#c22e13] transition-colors"
+                className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:ring-2 focus:ring-[#c22e13] focus:border-[#c22e13] transition-colors text-[#c22e13]"
                 placeholder="山田太郎"
               />
             </div>
@@ -67,7 +67,7 @@ export function ContactPage() {
                 required
                 value={formData.email}
                 onChange={handleChange}
-                className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:ring-2 focus:ring-[#c22e13] focus:border-[#c22e13] transition-colors"
+                className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:ring-2 focus:ring-[#c22e13] focus:border-[#c22e13] transition-colors text-[#c22e13]"
                 placeholder="example@email.com"
               />
             </div>
@@ -84,7 +84,7 @@ export function ContactPage() {
               required
               value={formData.subject}
               onChange={handleChange}
-              className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:ring-2 focus:ring-[#c22e13] focus:border-[#c22e13] transition-colors"
+              className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:ring-2 focus:ring-[#c22e13] focus:border-[#c22e13] transition-colors text-[#c22e13]"
               placeholder="お問い合わせの件名"
             />
           </div>
@@ -100,7 +100,7 @@ export function ContactPage() {
               rows={6}
               value={formData.message}
               onChange={handleChange}
-              className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:ring-2 focus:ring-[#c22e13] focus:border-[#c22e13] transition-colors"
+              className="w-full px-4 py-3 border-2 border-gray-300 rounded-lg focus:ring-2 focus:ring-[#c22e13] focus:border-[#c22e13] transition-colors text-[#c22e13]"
               placeholder="お問い合わせ内容をご記入ください"
             />
           </div>

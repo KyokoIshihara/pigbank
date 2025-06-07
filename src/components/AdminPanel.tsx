@@ -38,7 +38,7 @@ export function AdminPanel() {
             className={`flex-1 min-w-0 py-2 px-3 rounded-md text-sm font-medium transition-colors ${
               activeTab === tab.key
                 ? 'bg-white text-[#c22e13] shadow-sm'
-                : 'text-gray-600 hover:text-gray-900'
+                : 'text-[#c22e13] hover:text-red-700'
             }`}
           >
             {tab.label}
@@ -108,25 +108,25 @@ export function AdminPanel() {
 // For brevity, I'll include just the structure - the full implementations would be similar to the existing AdminPanel
 function MenuManagement({ items, setItems, editingItem, setEditingItem }: any) {
   // Implementation similar to existing menu management
-  return <div>Menu Management Component</div>;
+  return <div className="text-[#c22e13]">Menu Management Component</div>;
 }
 
 function NewsManagement({ items, setItems, editingItem, setEditingItem }: any) {
-  return <div>News Management Component</div>;
+  return <div className="text-[#c22e13]">News Management Component</div>;
 }
 
 function LiveManagement({ items, setItems, editingItem, setEditingItem }: any) {
-  return <div>Live Management Component</div>;
+  return <div className="text-[#c22e13]">Live Management Component</div>;
 }
 
 function DiscographyManagement({ items, setItems, editingItem, setEditingItem }: any) {
-  return <div>Discography Management Component</div>;
+  return <div className="text-[#c22e13]">Discography Management Component</div>;
 }
 
 function MovieManagement({ items, setItems, editingItem, setEditingItem }: any) {
-  return <div>Movie Management Component</div>;
+  return <div className="text-[#c22e13]">Movie Management Component</div>;
 }
 
 function ProductManagement({ items, setItems, editingItem, setEditingItem }: any) {
-  return <div>Product Management Component</div>;
+  return <div className="text-[#c22e13]">Product Management Component</div>;
 }

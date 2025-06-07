@@ -10,7 +10,7 @@ export function MoviePage() {
     <div className="max-w-6xl mx-auto">
       <div className="text-center mb-12">
         <h1 className="text-4xl font-bold text-[#c22e13] mb-4">Movie</h1>
-        <p className="text-xl">
+        <p className="text-xl text-[#c22e13]">
           ミュージックビデオ・ライブ映像
         </p>
       </div>
@@ -37,7 +37,7 @@ export function MoviePage() {
                 {movie.title}
               </h3>
               
-              <p className="text-gray-700">
+              <p className="text-[#c22e13]">
                 {movie.description}
               </p>
             </div>
