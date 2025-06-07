@@ -9,8 +9,8 @@ export function HomePage() {
   return (
     <div className="max-w-6xl mx-auto">
       {/* Hero Section */}
-      <div className="text-center mb-16">
-        <div className="mb-8">
+      <div className="text-center">
+        <div className="">
           <img 
             src="/ChatGPT Image 2025年6月7日 16_30_56.png" 
             alt="Pig Bank" 
